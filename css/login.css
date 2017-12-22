@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    padding:12px 20px;
+    margin:8px;
+    border: :1px solid #ccc;
+}
+.myform{
+    box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+    background-color: white;
+}
+h1{font-family: Georgia;
+    animation-fill-mode: both;
+    padding: 14px 20px;
+    margin:8px;
+    border:none;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}

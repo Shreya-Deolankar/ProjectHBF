@@ -1,0 +1,271 @@
+
+.columnMain{
+    background: #3a3a3a;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+.leftColumn {
+    border: 1px solid black;
+    margin: 5px;
+    background: rgba(255, 255, 255, 0.9) !important;
+    border-radius: 3px !important;
+    box-shadow: 0 2px 1px rgba(255, 255, 255, 0.9) !important;
+    width : 13%;
+    height: 99%;
+    
+}
+.middleColumn {
+    width : 63%;
+    border: 1px solid black;
+    margin: 5px;
+    height: 99%;
+    background: rgba(255, 255, 255, 0.9) !important;
+    border-radius: 3px !important;
+    box-shadow: 0 2px 1px rgba(255, 255, 255, 0.9) !important;
+    
+  }
+.rightColumn {
+  border: 1px solid black;
+  margin: 5px;
+  height: 99%;
+  width : 22%;
+  background: rgba(255, 255, 255, 0.9) !important;
+  border-radius: 3px !important;
+  box-shadow: 0 2px 1px rgba(255, 255, 255, 0.9) !important;
+  background-color: #226564;
+ }
+
+.advertise{
+  background: rgba(255, 255, 255, 0.9) !important;
+  border-radius: 3px !important;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.1) !important;
+  height: 30%;
+  margin: 1% 1% 1% 1%;
+  text-align: center;
+}
+
+
+.eventHeading{
+  font-weight: bold;
+  color: #dc6d02;
+  font-size: 3em;
+  margin: 5% 0% 5% 0%;
+}
+.eventblock{
+  border: 1px solid black;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 7px;
+  font-weight: bold;
+  padding-top: 7px;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+.eventblock span{
+
+  margin-right: 31%;
+  margin-left: 11%;
+  color: #003748;
+}
+.eventAccept {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 7px 7px 5px #888888;
+}
+.eventReject{
+  background-color: #e51b22;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 7px 7px 5px #888888;
+}
+.eventNavigate{
+  text-align: center;
+width: 100%;
+}
+
+.eventNavigate a{
+  text-decoration: none;
+}
+
+.eventGenerator{
+background: rgba(255, 255, 255, 0.9) !important;
+border-radius: 3px !important;
+box-shadow: 0 2px 1px rgba(0,0,0,0.1) !important;
+height: 30%;
+margin: 1% 1% 1% 1%;
+
+}
+.advertise{
+  height: 33%;
+  border: 1px solid black;
+  margin: 1% 1% 1% 1%;
+  background-color: white;
+  text-align: center;
+}
+.advertise h1{
+  margin-top: 35%;
+}
+.eventNameText{
+    width: 95%;
+    padding: 12px 20px;
+    margin: 6px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+    color: black;
+}
+.eventType {
+    width: 95%;
+    background-color: #f1f1f1;
+   border: 1px solid #AAA;
+   color: #555;
+   font-size: inherit;
+   margin: 6px;
+}
+
+.eventTextarea {
+    width: 95%;
+    height: 100px;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    /*background-color: #f8f8f8;*/
+    font-size: 16px;
+    resize: none;
+    margin: 6px;
+}
+
+[type="date"] {
+  height: 27px;
+  width: 87%;
+    font-size: 15px;
+    padding-left: 12px;
+    padding-right: 2px;
+    border: 2px solid #ccc;
+    background: #fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png) 97% 50% no-repeat;
+    margin-left: 6px;
+    text-transform: uppercase;
+    color: black;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+.time{
+      font-size: 1.2em;
+      color: black;
+}
+.timeFrom{
+      width: 30%;
+      background-color: #f1f1f1;
+     border: 1px solid #AAA;
+     color: #555;
+     font-size: inherit;
+}
+.timeTo{
+    width: 30%;
+    background-color: #f1f1f1;
+   border: 1px solid #AAA;
+   color: #555;
+   font-size: inherit;
+}
+.timeSelector{
+  width: 100%;
+margin: 2% 0% 1% 0%;
+text-decoration: none;
+text-align: center;
+}
+.generate{
+  padding: 12px 15px;
+  text-decoration: none;
+  margin: 6px 6px 6px 45px;
+  cursor: pointer;
+  width: 65%;
+  height: 15%;
+  background-color: #f05c1d; 
+  color: white;
+  font-size: 1.2em;
+}
+.generatorHeading{
+font-size: 1.5em;
+color: black;
+text-align: center;
+}
+/* start added by shreya to style column elemnts in all pages 8/1/2017*/
+.plusButton{
+      width: 20%; 
+      height: 10%;
+      background-color: #f05c1d; 
+      color: white;
+  }
+  .clickButton{
+      width: 25%; 
+      height: 15%;
+      background-color: #f05c1d; 
+      color: white;
+      box-shadow: 7px 7px 5px #888888;
+  }
+
+.clickButton:active {
+  background-color: #f05c1d;
+  box-shadow: 7px 7px 5px #888888;
+  transform: translateY(4px);
+}
+  .sideNavUL{
+    padding-left: 2px;
+  }
+  .middlePadding{
+    padding: 8px;
+    text-align: justify;
+    height: 100%;
+    
+  }
+  .acceptBtn{
+      background-color: #4caf50;
+      color: white;
+      margin-left: 230px;
+      margin-top: 30px;
+      box-shadow: 7px 7px 5px #888888;
+    }
+
+  .acceptBtn:active {
+    background-color: #4caf50;
+    box-shadow: 7px 7px 5px #888888;
+    transform: translateY(4px);
+  }
+  .rejectBtn{
+      background-color: #b71c1c;
+      color: white;
+      margin-left: 230px;
+      margin-top: 30px;
+      box-shadow: 7px 7px 5px #888888;
+    }
+  .acceptBtn:active {
+    background-color: #b71c1c;
+    box-shadow: 7px 7px 5px #888888;
+    transform: translateY(4px);
+  }
+    .dropDownChkFeedback{
+      margin-left: 30px;
+      padding: 11px;
+      background-color: #3a3a3a;
+      color: white;
+    }
+
+/* end added by shreya to style column elemnts in all pages 8/1/2017*/
